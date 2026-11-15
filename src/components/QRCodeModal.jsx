@@ -41,10 +41,10 @@ export default function QRCodeModal({ isOpen, onClose }) {
       ctx.fillText('MY UNIVERSE, MY HUSBAND, MY FOREVER', 500, 120);
 
       ctx.fillStyle = '#F472B6';
-      ctx.font = '32px "Inter", sans-serif';
-      ctx.fillText('Private Birthday Invitation for VIREN ❤️', 500, 180);
+      ctx.font = '28px "Inter", sans-serif';
+      ctx.fillText('Private Birthday Invitation for VIREN ❤️ from RUCHI', 500, 180);
 
-      ctx.font = '24px "Inter", sans-serif';
+      ctx.font = '22px "Inter", sans-serif';
       ctx.fillStyle = '#FDE68A';
       ctx.fillText('14 December 2026', 500, 220);
 
@@ -61,7 +61,7 @@ export default function QRCodeModal({ isOpen, onClose }) {
 
       ctx.font = '22px "Inter", sans-serif';
       ctx.fillStyle = '#FDE68A';
-      ctx.fillText('Your Forever Person ❤️', 500, 910);
+      ctx.fillText('Forever Yours, Ruchi ❤️', 500, 910);
 
       const link = document.createElement('a');
       link.download = `Viren-Birthday-Invitation-QR.png`;
@@ -117,8 +117,9 @@ export default function QRCodeModal({ isOpen, onClose }) {
                 MY UNIVERSE, MY HUSBAND, MY FOREVER
               </h2>
 
-              <p className="font-playfair text-xl text-[#FDE68A] font-bold mb-1">
-                VIREN ❤️
+              <p className="font-playfair text-xl text-[#FDE68A] font-bold mb-1 flex items-center justify-center gap-1.5">
+                <span>VIREN ❤️</span>
+                <span className="font-cormorant text-base italic text-pink-200">from Ruchi</span>
               </p>
 
               <p className="text-xs sm:text-sm text-pink-300 tracking-widest uppercase font-semibold mb-6">
@@ -158,8 +159,9 @@ export default function QRCodeModal({ isOpen, onClose }) {
                 "A little world of love, created only for you."
               </p>
 
-              <div className="mt-1 text-xs text-pink-300">
-                Your Forever Person ❤️
+              <div className="mt-2 flex items-center justify-center gap-1.5 font-playfair text-sm font-bold text-white text-pink-glow">
+                <span>Your Forever Person, Ruchi</span>
+                <Heart size={14} className="fill-red-500 text-red-500 inline-block animate-pulse" />
               </div>
             </div>
 

@@ -50,7 +50,7 @@ const SURPRISES = [
     boxLabel: "Box 05",
     tag: "FOREVER",
     icon: InfinityIcon,
-    content: "Even in another lifetime, I would search for you and choose you again.",
+    content: "Even in another lifetime, I would search for you and choose you again. — Forever Yours, Ruchi ❤️",
     boxGradient: "from-[#BE123C] via-[#701A75] to-[#3B0764]", // Passionate Wine
     ribbonColor: "#FDE68A", // Royal Gold
     bowColor: "#FEF08A",
@@ -86,15 +86,15 @@ export default function GiftSurprises() {
         {/* Section Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-500/20 border border-pink-400/40 text-xs sm:text-sm tracking-widest uppercase text-[#FDE68A] mb-3 shadow-md">
           <Crown size={15} className="text-[#FDE68A]" />
-          <span>Royal Tokens of Love</span>
+          <span>Royal Tokens of Love • From Ruchi</span>
         </div>
 
         <h2 className="font-playfair text-3xl sm:text-5xl font-bold tracking-tight text-white text-center mb-2 text-pink-glow">
-          Five Little Surprises for My King
+          Five Little Surprises for My King, Viren
         </h2>
 
         <p className="font-cormorant text-lg sm:text-xl italic text-pink-200 text-center max-w-lg mb-14">
-          "Each 3D velvet gift box holds an intimate treasure dedicated only to you. Tap to unwrap."
+          "Each 3D velvet gift box holds an intimate treasure dedicated only to you from Ruchi. Tap to unwrap."
         </p>
 
         {/* 5 REAL 3D LUXURY GIFT BOXES GRID */}
@@ -141,7 +141,12 @@ export default function GiftSurprises() {
                           "{surprise.content}"
                         </p>
 
-                        <div className="text-[10px] text-pink-700/80 font-semibold tracking-wider text-center mt-3 uppercase">
+                        <div className="text-[11px] font-bold text-pink-700 tracking-wider text-center mt-2 flex items-center justify-center gap-1">
+                          <span>With all my love, Ruchi</span>
+                          <Heart size={11} className="fill-red-500 text-red-500 inline-block" />
+                        </div>
+
+                        <div className="text-[10px] text-purple-900/60 font-semibold tracking-wider text-center mt-2 uppercase">
                           Tap box to close
                         </div>
                       </motion.div>

@@ -130,9 +130,14 @@ export default function CinematicReveal({ onExploreNext }) {
                 "To my wonderful husband, you are my greatest blessing, my favourite person, and the most beautiful part of my life."
               </p>
 
-              <div className="mt-4 flex items-center justify-center gap-2 text-xs sm:text-sm text-pink-300">
-                <span>With endless devotion,</span>
-                <span className="font-bold text-[#FDE68A]">Your Forever Person ❤️</span>
+              <div className="mt-5 flex flex-col items-center justify-center gap-1.5">
+                <span className="font-cormorant text-base sm:text-lg italic text-pink-300">
+                  With endless devotion & love,
+                </span>
+                <span className="font-playfair text-xl sm:text-3xl font-bold text-white tracking-wide text-pink-glow flex items-center gap-2">
+                  <span>Your Forever Person, Ruchi</span>
+                  <Heart size={22} className="fill-red-500 text-red-500 inline-block animate-pulse" />
+                </span>
               </div>
             </motion.div>
 

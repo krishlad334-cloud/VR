@@ -22,16 +22,16 @@ export default function BirthdayWishes() {
         {/* Section Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-500/20 border border-pink-400/40 text-xs sm:text-sm tracking-widest uppercase text-[#FDE68A] mb-3 shadow-md">
           <Crown size={14} className="text-[#FDE68A]" />
-          <span>Heartfelt Prayers</span>
+          <span>Heartfelt Prayers • From Ruchi</span>
         </div>
 
         {/* Heading */}
         <h2 className="font-playfair text-3xl sm:text-5xl font-bold tracking-tight text-white mb-2 text-pink-glow">
-          MY WISHES FOR MY KING
+          MY WISHES FOR MY KING, VIREN
         </h2>
 
         <p className="font-cormorant text-lg sm:text-xl italic text-pink-200 max-w-lg mb-12">
-          "Prayers whispered from the depths of my soul for your birthday and all the days to come."
+          "Prayers whispered from Ruchi's soul for your birthday and all the beautiful years ahead."
         </p>
 
         {/* Luxury Card Container */}
@@ -80,10 +80,14 @@ export default function BirthdayWishes() {
               "May life give you every happiness that you deserve. You are my greatest blessing."
             </p>
 
-            <div className="mt-4 flex items-center justify-center gap-2">
-              <span className="h-px w-10 bg-pink-400/40" />
-              <Heart size={18} className="fill-red-500 text-red-500 animate-pulse" />
-              <span className="h-px w-10 bg-pink-400/40" />
+            <div className="mt-5 flex flex-col items-center justify-center gap-1.5">
+              <span className="font-cormorant text-base sm:text-lg italic text-pink-300">
+                With all my prayers, devotion & endless love,
+              </span>
+              <span className="font-playfair text-xl sm:text-3xl font-bold text-white tracking-wide text-pink-glow flex items-center gap-2">
+                <span>Your Forever Person, Ruchi</span>
+                <Heart size={22} className="fill-red-500 text-red-500 inline-block animate-pulse" />
+              </span>
             </div>
           </motion.div>
         </motion.div>

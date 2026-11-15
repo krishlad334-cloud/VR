@@ -88,6 +88,22 @@ export default function App() {
               onOpenQR={() => setQrModalOpen(true)}
             />
 
+            {/* Elegant Signature Footer */}
+            <footer className="py-12 px-4 border-t border-pink-500/20 bg-[#16021B] text-center relative z-20">
+              <div className="max-w-2xl mx-auto flex flex-col items-center gap-2">
+                <div className="font-playfair text-lg sm:text-xl font-bold text-white text-pink-glow">
+                  MY UNIVERSE, MY HUSBAND, MY FOREVER
+                </div>
+                <div className="font-cormorant text-base sm:text-lg italic text-pink-200">
+                  A Birthday Universe Created with All My Heart for Viren • 14 December 2026
+                </div>
+                <div className="font-playfair text-sm sm:text-base font-bold text-[#FDE68A] mt-1 flex items-center gap-2">
+                  <span>Forever & Always Yours, Ruchi</span>
+                  <span className="text-red-500 text-lg">❤️</span>
+                </div>
+              </div>
+            </footer>
+
             {/* Luxury Romantic Vinyl Music Player ("Tum Se Hi") */}
             <RoyalMusicPlayer
               autoStartPrompt={autoPlayPrompt}

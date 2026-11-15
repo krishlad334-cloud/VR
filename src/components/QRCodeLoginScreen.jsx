@@ -62,8 +62,8 @@ export default function QRCodeLoginScreen({ onUnlock }) {
       ctx.fillText('MY UNIVERSE, MY HUSBAND, MY FOREVER', 500, 120);
 
       ctx.fillStyle = '#F472B6';
-      ctx.font = '30px "Inter", sans-serif';
-      ctx.fillText('VIP Private Invitation for VIREN ❤️', 500, 180);
+      ctx.font = '28px "Inter", sans-serif';
+      ctx.fillText('Private Birthday Invitation for VIREN ❤️ from RUCHI', 500, 180);
 
       ctx.font = '22px "Inter", sans-serif';
       ctx.fillStyle = '#FDE68A';
@@ -80,9 +80,9 @@ export default function QRCodeLoginScreen({ onUnlock }) {
       ctx.font = 'italic 26px "Cormorant Garamond", Georgia, serif';
       ctx.fillText('Scan with iPhone or Android camera to open', 500, 860);
 
-      ctx.font = '20px "Inter", sans-serif';
+      ctx.font = '22px "Inter", sans-serif';
       ctx.fillStyle = '#FDE68A';
-      ctx.fillText('Your Forever Person ❤️', 500, 910);
+      ctx.fillText('With Endless Love, Your Forever Person, Ruchi ❤️', 500, 910);
 
       const link = document.createElement('a');
       link.download = `Viren-Invitation-QR.png`;
@@ -114,7 +114,7 @@ export default function QRCodeLoginScreen({ onUnlock }) {
         {/* Top VIP Badge */}
         <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-gradient-to-r from-pink-500/20 to-purple-600/20 border border-pink-400/40 text-[11px] tracking-widest uppercase text-[#FDE68A] mb-4 shadow-sm">
           <Sparkles size={13} className="text-[#FDE68A]" />
-          <span>Exclusive VIP Invitation</span>
+          <span>Private Love Surprise • From Ruchi to Viren</span>
         </div>
 
         {/* Heading */}
@@ -128,6 +128,9 @@ export default function QRCodeLoginScreen({ onUnlock }) {
             VIREN
           </span>
           <Heart size={20} className="fill-red-500 text-red-500 animate-pulse" />
+          <span className="font-cormorant text-base sm:text-lg italic text-pink-200">
+            from Ruchi
+          </span>
         </div>
 
         <p className="text-xs uppercase tracking-[0.25em] text-pink-300 font-bold mb-6">
@@ -168,7 +171,7 @@ export default function QRCodeLoginScreen({ onUnlock }) {
                   Access Granted
                 </p>
                 <p className="font-cormorant text-sm italic text-[#FDE68A]">
-                  Welcome, My King VIREN ❤️
+                  Welcome, My King VIREN ❤️ — With Love, Ruchi
                 </p>
               </motion.div>
             )}
@@ -196,7 +199,7 @@ export default function QRCodeLoginScreen({ onUnlock }) {
           </div>
 
           <div className="mt-2 text-[10px] text-purple-950 font-extrabold tracking-wider uppercase">
-            VIP PASS • PRIVATE ACCESS
+            RUCHI & VIREN • PRIVATE PASS
           </div>
         </div>
 
@@ -204,6 +207,15 @@ export default function QRCodeLoginScreen({ onUnlock }) {
         <div className="mt-5 flex items-center justify-center gap-2 text-xs sm:text-sm text-pink-200">
           <Smartphone size={16} className="text-pink-400" />
           <span>Point iPhone or Android camera to scan</span>
+        </div>
+
+        <p className="mt-3 font-cormorant text-base sm:text-lg italic text-[#FDE68A]">
+          "A little world of love, created only for you."
+        </p>
+
+        <div className="mt-1 flex items-center justify-center gap-1.5 font-playfair text-xs sm:text-sm font-bold text-white text-pink-glow">
+          <span>Your Forever Person, Ruchi</span>
+          <Heart size={14} className="fill-red-500 text-red-500 inline-block animate-pulse" />
         </div>
 
         {/* Primary Interactive Button: SCAN & OPEN WEBSITE */}

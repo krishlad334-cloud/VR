@@ -39,7 +39,7 @@ const INITIAL_MILESTONES = [
     id: 5,
     title: "Our Wedding Day",
     subtitle: "Vows before God, family, and eternity",
-    defaultNote: "The sacred day I became yours and you became mine. The proudest, most tearfully happy day of my life.",
+    defaultNote: "The sacred day I became yours and you became mine. Ruchi & Viren together forever.",
     iconType: "rings",
     badge: "Sacred Vows",
     highlight: true,
@@ -56,7 +56,7 @@ const INITIAL_MILESTONES = [
     id: 7,
     title: "14 December 2026 – Celebrating My King",
     subtitle: "Today, tomorrow, and every lifetime with you",
-    defaultNote: "Happy Birthday, Viren! Today I celebrate the greatest gift God ever blessed this earth and my life with.",
+    defaultNote: "Happy Birthday, Viren! Today your Ruchi celebrates the greatest gift God ever blessed this earth and my life with.",
     iconType: "crown",
     badge: "Today's Celebration",
     highlight: true,
@@ -128,7 +128,7 @@ export default function LoveStoryTimeline() {
         {/* Section Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-500/20 border border-pink-400/40 text-xs sm:text-sm tracking-widest uppercase text-[#FDE68A] mb-3 shadow-md">
           <Bookmark size={14} className="text-[#FDE68A]" />
-          <span>Our Journey Through Time</span>
+          <span>Ruchi & Viren's Journey Through Time</span>
         </div>
 
         {/* Heading */}
@@ -137,7 +137,7 @@ export default function LoveStoryTimeline() {
         </h2>
 
         <p className="font-cormorant text-lg sm:text-xl italic text-pink-200 text-center max-w-lg mb-16">
-          "A vertical reflection of the milestones that brought us to this magical birthday celebration."
+          "A vertical reflection of the milestones that brought us to this magical birthday celebration, curated with endless love by Ruchi."
         </p>
 
         {/* Vertical Timeline */}
@@ -243,6 +243,17 @@ export default function LoveStoryTimeline() {
               </motion.div>
             );
           })}
+        </div>
+
+        {/* Timeline Footer Dedication */}
+        <div className="mt-8 flex flex-col items-center text-center">
+          <div className="font-cormorant text-base sm:text-lg italic text-pink-300">
+            Every chapter of our story is written with endless love,
+          </div>
+          <div className="font-playfair text-xl sm:text-2xl font-bold text-white mt-1 flex items-center gap-2 text-pink-glow">
+            <span>Your Forever Person, Ruchi</span>
+            <Heart size={20} className="fill-red-500 text-red-500 inline-block animate-pulse" />
+          </div>
         </div>
       </div>
     </section>

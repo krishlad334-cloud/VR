@@ -47,9 +47,12 @@ export default function FinalSurprise({ onReplay, onOpenQR }) {
                 <Heart size={38} className="fill-red-500 text-red-500 animate-pulse" />
               </motion.div>
 
-              <h2 className="font-playfair text-2xl sm:text-4xl font-bold text-white text-pink-glow leading-snug mb-8">
+              <h2 className="font-playfair text-2xl sm:text-4xl font-bold text-white text-pink-glow leading-snug mb-3">
                 VIREN, BEFORE YOU LEAVE, THERE IS ONE LAST THING...
               </h2>
+              <p className="font-cormorant text-base sm:text-lg italic text-pink-200 mb-8">
+                A final whisper from Ruchi's heart to yours.
+              </p>
 
               <button
                 onClick={handleRevealLastThing}
@@ -120,12 +123,18 @@ export default function FinalSurprise({ onReplay, onOpenQR }) {
                     HAPPY BIRTHDAY, VIREN ❤️
                   </h3>
 
-                  <p className="font-cormorant text-xl sm:text-2xl italic text-pink-200 mb-1">
+                  <p className="font-cormorant text-xl sm:text-2xl italic text-pink-200 mb-2">
                     "YOURS, TODAY, TOMORROW & FOREVER."
                   </p>
 
-                  <div className="font-inter text-xs sm:text-sm font-bold text-pink-300 tracking-wider uppercase mt-2">
-                    LOVE, YOUR FOREVER PERSON
+                  <div className="mt-3 flex flex-col items-center gap-1">
+                    <span className="font-cormorant text-base sm:text-lg italic text-pink-300">
+                      With all my love & whole heart,
+                    </span>
+                    <span className="font-playfair text-xl sm:text-3xl font-bold text-white tracking-wide text-pink-glow flex items-center gap-2">
+                      <span>Your Forever Person, Ruchi</span>
+                      <Heart size={22} className="fill-red-500 text-red-500 inline-block animate-pulse" />
+                    </span>
                   </div>
                 </div>
               </div>

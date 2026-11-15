@@ -72,7 +72,7 @@ const REASONS = [
     id: 10,
     title: "Reason 10",
     subtitle: "My Infinite Choice",
-    text: "Because if I had to choose again, I would still choose YOU, VIREN.",
+    text: "Because if I had to choose again, in every universe and lifetime, I would still choose YOU, VIREN. — Forever Yours, Ruchi ❤️",
     icon: "💍",
     highlight: true,
   },
@@ -111,7 +111,7 @@ export default function LoveReasons() {
         {/* Section Header */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-500/20 border border-pink-400/40 text-xs sm:text-sm tracking-widest uppercase text-[#FDE68A] mb-3 shadow-md">
           <Heart size={14} className="fill-red-500 text-red-500" />
-          <span>Treasured Thoughts</span>
+          <span>Treasured Thoughts • From Ruchi to Viren</span>
         </div>
 
         <h2 className="font-playfair text-3xl sm:text-5xl font-bold tracking-tight text-white text-center mb-2 text-pink-glow">
@@ -119,7 +119,7 @@ export default function LoveReasons() {
         </h2>
 
         <p className="font-cormorant text-lg sm:text-xl italic text-pink-200 text-center max-w-lg mb-8">
-          "Tap each card to reveal the special reasons why my heart beats only for you."
+          "Ten heartfelt confessions from Ruchi. Tap each card to reveal why my heart beats only for you."
         </p>
 
         {/* Counter and Reveal All */}

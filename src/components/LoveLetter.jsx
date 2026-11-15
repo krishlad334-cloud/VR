@@ -59,7 +59,7 @@ export default function LoveLetter() {
 
                   <div className="relative z-10 flex flex-col items-center">
                     <div className="text-xs uppercase tracking-[0.3em] text-pink-300 font-bold mb-2">
-                      To My Beloved Husband
+                      To My Beloved Husband VIREN • From Ruchi
                     </div>
 
                     <h3 className="font-playfair text-3xl sm:text-4xl text-white font-bold mb-8 text-pink-glow">
@@ -75,7 +75,7 @@ export default function LoveLetter() {
                       <div className="relative w-24 h-24 rounded-full bg-gradient-to-tr from-[#9F1239] via-[#E11D48] to-[#F43F5E] flex items-center justify-center shadow-[0_0_35px_rgba(225,29,72,0.6)] border-4 border-pink-200">
                         <div className="w-18 h-18 rounded-full border border-white/60 flex flex-col items-center justify-center p-2 text-white">
                           <Heart size={26} className="fill-white text-white mb-0.5 group-hover:scale-110 transition-transform animate-pulse" />
-                          <span className="font-playfair text-[10px] tracking-wider uppercase font-bold text-[#FDE68A]">V & ❤️</span>
+                          <span className="font-playfair text-[10px] tracking-wider uppercase font-bold text-[#FDE68A]">R & V</span>
                         </div>
                       </div>
 
@@ -114,7 +114,7 @@ export default function LoveLetter() {
                         Dearest Viren
                       </div>
                       <div className="font-inter text-xs text-[#FDE68A] tracking-widest uppercase mt-0.5 font-semibold">
-                        14 December 2026 • Birthday Edition
+                        A Birthday Letter From Your Wife, Ruchi • 14 Dec 2026
                       </div>
                     </div>
                     <div className="w-10 h-10 rounded-full bg-pink-500/20 border border-pink-400/50 flex items-center justify-center text-pink-400">
@@ -169,11 +169,11 @@ export default function LoveLetter() {
                   <div className="mt-8 pt-6 border-t border-pink-400/20 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
                     <div>
                       <div className="font-cormorant text-lg italic text-pink-300">
-                        With endless love,
+                        With endless love and my whole heart,
                       </div>
-                      <div className="font-playfair text-xl sm:text-2xl font-bold text-white mt-1 flex items-center gap-2">
-                        <span>Your Forever Person</span>
-                        <Heart size={20} className="fill-red-500 text-red-500 inline-block animate-pulse" />
+                      <div className="font-playfair text-xl sm:text-3xl font-bold text-white mt-1 flex items-center gap-2 text-pink-glow">
+                        <span>Your Forever Person, Ruchi</span>
+                        <Heart size={22} className="fill-red-500 text-red-500 inline-block animate-pulse" />
                       </div>
                     </div>
 

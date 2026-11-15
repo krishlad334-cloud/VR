@@ -44,7 +44,7 @@ export default function ForeverPromise() {
         {/* Section Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-pink-500/20 border border-pink-400/40 text-xs sm:text-sm tracking-widest uppercase text-[#FDE68A] mb-4 shadow-md">
           <Sparkles size={14} className="text-[#FDE68A]" />
-          <span>An Eternal Vow</span>
+          <span>An Eternal Vow • Ruchi to Viren</span>
           <Sparkles size={14} className="text-[#FDE68A]" />
         </div>
 
@@ -62,7 +62,7 @@ export default function ForeverPromise() {
           className="w-full glass-royal rounded-3xl p-8 sm:p-14 border border-pink-400/40 pink-border-glow shadow-2xl text-left sm:text-center"
         >
           <div className="font-playfair text-2xl sm:text-3xl font-bold text-[#FDE68A] mb-6">
-            Viren,
+            My Beloved Viren,
           </div>
 
           <div className="font-cormorant text-xl sm:text-3xl text-pink-100 font-normal leading-relaxed space-y-6 max-w-2xl mx-auto">
@@ -89,13 +89,18 @@ export default function ForeverPromise() {
             </div>
           </div>
 
-          {/* Decorative Signature */}
-          <div className="mt-10 pt-6 border-t border-pink-400/20 flex items-center justify-center gap-3">
-            <Heart size={20} className="fill-red-500 text-red-500 animate-pulse" />
-            <span className="font-playfair text-base sm:text-lg text-white tracking-widest uppercase">
-              Always & In Every Lifetime
+          {/* Decorative Signature with Ruchi */}
+          <div className="mt-10 pt-6 border-t border-pink-400/20 flex flex-col items-center justify-center gap-2">
+            <span className="font-cormorant text-base sm:text-lg italic text-pink-300">
+              Forever and in every lifetime,
             </span>
-            <Heart size={20} className="fill-red-500 text-red-500 animate-pulse" />
+            <span className="font-playfair text-xl sm:text-3xl font-bold text-white tracking-wide text-pink-glow flex items-center gap-2">
+              <span>Your Forever Person, Ruchi</span>
+              <Heart size={22} className="fill-red-500 text-red-500 inline-block animate-pulse" />
+            </span>
+            <span className="text-[11px] font-inter uppercase tracking-[0.25em] text-[#FDE68A] mt-1 font-semibold">
+              Ruchi & Viren • Eternal Love
+            </span>
           </div>
         </motion.div>
       </div>

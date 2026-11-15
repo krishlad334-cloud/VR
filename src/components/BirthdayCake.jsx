@@ -234,11 +234,11 @@ export default function BirthdayCake() {
             opacity="0.85"
           />
 
-          {/* Tier 2 Ribbon with VIREN Name */}
-          <g transform="translate(150, 252)">
-            <rect x="0" y="0" width="200" height="26" rx="13" fill="#2E0836" stroke="#FDE68A" strokeWidth="1.8" />
-            <text x="100" y="18" fill="#FDE68A" fontSize="13" fontFamily="'Playfair Display', serif" fontWeight="bold" textAnchor="middle" letterSpacing="3">
-              VIREN • FOREVER
+          {/* Tier 2 Ribbon with VIREN & RUCHI Name */}
+          <g transform="translate(140, 252)">
+            <rect x="0" y="0" width="220" height="26" rx="13" fill="#2E0836" stroke="#FDE68A" strokeWidth="1.8" />
+            <text x="110" y="18" fill="#FDE68A" fontSize="11" fontFamily="'Playfair Display', serif" fontWeight="bold" textAnchor="middle" letterSpacing="2">
+              VIREN • LOVED BY RUCHI
             </text>
           </g>
 
@@ -302,8 +302,8 @@ export default function BirthdayCake() {
               strokeWidth="1.5"
               filter="url(#flameGlow)"
             />
-            <text x="0" y="3" fill="#3B0764" fontSize="12" fontFamily="'Playfair Display', serif" fontWeight="bold" textAnchor="middle">
-              V❤️
+            <text x="0" y="3" fill="#3B0764" fontSize="11" fontFamily="'Playfair Display', serif" fontWeight="bold" textAnchor="middle">
+              R & V
             </text>
           </g>
 
@@ -409,6 +409,16 @@ export default function BirthdayCake() {
             <p className="font-cormorant text-lg sm:text-xl italic text-pink-200 mt-2">
               "You are my greatest blessing, my favourite person, and the most beautiful part of my life."
             </p>
+
+            <div className="mt-3 flex flex-col items-center justify-center gap-0.5">
+              <span className="font-cormorant text-sm italic text-pink-300">
+                Forever with you,
+              </span>
+              <span className="font-playfair text-base sm:text-lg font-bold text-white flex items-center gap-1.5 text-pink-glow">
+                <span>Your Forever Person, Ruchi</span>
+                <Heart size={16} className="fill-red-500 text-red-500 inline-block animate-pulse" />
+              </span>
+            </div>
 
             <button
               onClick={handleRelight}
